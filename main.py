@@ -16,4 +16,4 @@ async def on_member_join(member):
     await member.dm_channel.send(
         f'Hi {member.name}, welcome to my Discord server!'
     )
-client.run('NzU2NDYzNzc5MDg4MzAyMTUx.X2SNyw.5vd9UrUJYlqE4TJ8--t_3YIm5HM')
+client.run(API_KEY)
